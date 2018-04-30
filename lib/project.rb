@@ -3,7 +3,7 @@ class Project
 
   def intialize(title)
     @title = title
-
+    @backers = []
   end
   
 end
