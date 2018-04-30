@@ -6,4 +6,6 @@ class Backer
    @backed_projects = []
  end
 
+ def(name)
+
 end
