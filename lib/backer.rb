@@ -7,7 +7,7 @@ class Backer
  end
 
  def back_project(project)
-   if @backed_projects
+   if ! (@backed_projects.detect { |x| x == project }
      @backed_projects << project
      project.add_backer(self)
    end
